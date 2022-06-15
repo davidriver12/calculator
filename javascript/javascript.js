@@ -189,3 +189,43 @@ btn16.textContent = '=';
 
 displayValue = '';
 
+document.onkeydown = function (e) {
+    switch (e.which) {
+        case 67 : clearBtn.click();
+            break;
+        case 8 : delBtn.click();
+            break;
+        case 55 : btn1.click();
+            break;
+        case 56 : btn2.click();
+            break;
+        case 57 : btn3.click();
+            break;
+        case 191 : btn4.click();
+            break;
+        case 52 : btn5.click();
+            break;
+        case 53 : btn6.click();
+            break;
+        case 54 : btn7.click();
+            break;
+        case 88 : btn8.click();
+            break;
+        case 49 : btn9.click();
+            break;
+        case 50 : btn10.click();
+            break;
+        case 51 : btn11.click();
+            break;
+        case 109 : btn12.click();
+            break;
+        case 48 : btn13.click();
+            break;
+        case 190 : btn14.click();
+            break;
+        case 107 : btn15.click();
+            break;
+        case 61 : btn16.click();
+            break;
+    }
+  }
