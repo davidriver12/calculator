@@ -4,6 +4,7 @@ html, body {
 }
 
 body {
+    background-color: #92A5CD;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +12,8 @@ body {
 }
 
 #calculator {
-    background-color: rgb(48, 48, 48);
+    box-shadow: -8px 8px 15px black;
+    background-image: linear-gradient(to bottom left, #505050, #101010);
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -28,7 +30,7 @@ body {
     margin: 10%;
     margin-top: 8%;
     margin-bottom: 8%;
-    background-color: rgb(146, 218, 175);
+    background-image: linear-gradient(to bottom left, #93ECB7, #68A480);
     border-radius: 10px;
     height: 15%;
     width: 90%;
@@ -52,6 +54,7 @@ body {
 }
 
 button {
+    background-image: linear-gradient(to bottom left, #FFFFFF, #AEAEAE);
     font-size: 16px;
     border-radius: 10px;
     height: 100%;
@@ -64,15 +67,15 @@ button {
 }
 
 #clearBtn {
-    background-color: #F64646;
+    background-image: linear-gradient(to bottom left, #F64646, #BC2B2B);
 }
 
 #delBtn {
-    background-color: #4C46F6;
+    background-image: linear-gradient(to bottom left, #4C46F6, #3430B0);
 }
 
 #btn16 {
-    background-color: #FC9816;
+    background-image: linear-gradient(to bottom left, #FC9816, #B26B0F);
 }
 
 #miniDisplay {

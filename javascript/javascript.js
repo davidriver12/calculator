@@ -147,7 +147,7 @@ for (let x=0; x<4; x++){
         button.addEventListener('click', function(){
             if (isNaN(button.textContent) && button.textContent != '.'){
                 if (button.textContent == '='){
-                    if (miniDisplay.textContent){
+                    if (miniDisplay.textContent && display.textContent){
                         equalClicked();
                         if (!dotOn){
                             toggleDot();
@@ -201,7 +201,7 @@ document.onkeydown = function (e) {
             break;
         case 57 : btn3.click();
             break;
-        case 191 : btn4.click();
+        case 68 : btn4.click();
             break;
         case 52 : btn5.click();
             break;
@@ -225,7 +225,7 @@ document.onkeydown = function (e) {
             break;
         case 107 : btn15.click();
             break;
-        case 13 : btn16.click();
+        case 82 : btn16.click();
             break;
     }
   }
