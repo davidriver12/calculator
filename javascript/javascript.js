@@ -225,7 +225,7 @@ document.onkeydown = function (e) {
             break;
         case 107 : btn15.click();
             break;
-        case 61 : btn16.click();
+        case 13 : btn16.click();
             break;
     }
   }
